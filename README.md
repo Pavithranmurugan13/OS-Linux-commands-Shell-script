@@ -18,9 +18,7 @@ Execute the following commands
 
 ### Step 3:
 
-Testing the commands fo
-![Screenshot 2024-03-04 104923](https://github.com/user-attachments/assets/7d9880be-3b69-46aa-9ae0-2cf2f4367e9e)
-r the desired output. 
+Testing the commands for the desired output. 
 
 # COMMANDS:
 ### Create the following files file1, file2 as follows:
