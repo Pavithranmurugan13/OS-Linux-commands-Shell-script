@@ -83,18 +83,18 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-![output](./output1_6.png)
+![output1_6](https://github.com/user-attachments/assets/9f915847-76d8-4c51-a5d0-ef0399eef35e)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-![output](./output1_7.png)
+![output1_7](https://github.com/user-attachments/assets/e0b5bd3d-4c1d-459e-8953-3030838be00d)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![output](./output1_8.png)
+![output1_8](https://github.com/user-attachments/assets/476cec2b-5ad2-4344-af8b-c71d1987fc64)
 
 cat < newfile 
 ```
@@ -109,40 +109,37 @@ hello world
 ```
 grep Hello newfile 
 ## OUTPUT
-![output](./output1_9.png)
+![output1_9](https://github.com/user-attachments/assets/ef9fc1a0-4ef3-4be8-9ad5-852b9646f056)
 
 
 grep hello newfile 
 ## OUTPUT
-![output](./output1_10.png)
 
+![output1_10](https://github.com/user-attachments/assets/dd34aa7b-b7dd-4b81-8b12-4e68df65cae2)
 
 
 grep -v hello newfile 
 ## OUTPUT
-![output](./output1_11.png)
 
+![output1_11](https://github.com/user-attachments/assets/5686c89a-bafb-4023-88c6-38fec8579dc4)
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-![output](./output1_12.png)
-
-
+![output1_12](https://github.com/user-attachments/assets/52fd89e7-f31f-4392-b967-3f3af15026fd)
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-![output](./output1_13.png)
-
+![output1_13](https://github.com/user-attachments/assets/6997a629-7292-4489-aed1-bad72a9dca0b)
 
 
 grep -R ubuntu /etc
 ## OUTPUT
-![output](./output1_14.png)
+![output1_14](https://github.com/user-attachments/assets/2df3f0b0-69dd-4c2e-9da1-62a6d57f44d6)
 
 
 grep -w -n world newfile   
 ## OUTPUT
-![output](./output1_15.png)
+![output1_15](https://github.com/user-attachments/assets/d6d54ffa-9f17-46ed-893d-e459fdd4555c)
 
 cat < newfile 
 ```
@@ -165,28 +162,28 @@ Linux is best in this World
 ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-![output](./output1_16.png)
+![output1_16](https://github.com/user-attachments/assets/51144b17-e9ee-42b5-a097-a6e95d7b6fab)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-![output](./output1_17.png)
 
+![output1_17](https://github.com/user-attachments/assets/f720d6f7-5fa5-4d67-8df4-1c4ce698536c)
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-![output](./output1_18.png)
 
 
+![output1_18](https://github.com/user-attachments/assets/8a433c60-d083-48c9-92f0-e7e2152d146e)
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-![output](./output1_19.png)
+![output1_19](https://github.com/user-attachments/assets/97822150-4818-4e32-9e9a-356df459ec1b)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-![output](./output1_20.png)
+![output1_20](https://github.com/user-attachments/assets/7146e0b7-74a7-4bcf-824e-cc9251106930)
 
 
 egrep '(World$)' newfile 
